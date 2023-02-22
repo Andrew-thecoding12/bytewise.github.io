@@ -1,0 +1,147 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  color: #222;
+  background-color: #fff;
+}
+
+header {
+  background-color: #0070f3;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+nav ul li a {
+  display: flex;
+  padding: 1rem;
+  color: #fff;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  background-color: #fff;
+  color: #0070f3;
+}
+
+nav .logo {
+  font-size: 2rem;
+  font-weight: bold;
+  text-decoration: none;
+  color: #fff;
+  margin: 0;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 4rem 2rem;
+}
+
+h1 {
+  font-size: 3rem;
+  margin-bottom: 2rem;
+}
+
+p {
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+button {
+  background-color: #0070f3;
+  color: #fff;
+  font-size: 3rem;
+  border: none;
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+  margin-top: 2rem;
+  box-shadow: 0 4px 8px rgba(0
+}
+
+input[type="checkbox"] {
+  display: none;
+}
+
+/* Post uploader styles */
+.post-uploader-container {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.post-uploader-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 80%;
+  max-width: 600px;
+  background-color: #fff;
+  border-radius: 0.25rem;
+  padding: 2rem;
+  box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.2);
+}
+
+.post-uploader-form label {
+  display: block;
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+}
+
+.post-uploader-form input[type="text"], 
+
+.post-uploader-form textarea {
+  width: 100%;
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 0.25rem;
+  font-size: 1rem;
+}
+
+.post-uploader-form textarea {
+  min-height: 150px;
+}
+
+.post-uploader-form button[type="submit"] {
+  padding: 0.75rem 2rem;
+  border: none;
+  border-radius: 0.25rem;
+  background-color: #0070f3;
+  color: #fff;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.post-uploader-form button[type="submit"]:hover {
+  background-color: #0058c0;
+}
+
+.post-uploader-form button[type="submit"]:disabled {
+  background-color: #999;
+  cursor: not-allowed;
+}
+
+.post-uploader-form .error-message {
+  color: red;
+  margin-bottom: 1rem;
+}
+
+.post-uploader-form .success-message {
+  color: green;
+  margin-bottom: 1rem;
+}
